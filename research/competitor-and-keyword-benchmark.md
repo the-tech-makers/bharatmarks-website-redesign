@@ -1,3 +1,106 @@
+> **Scope correction — 27 October 2026:** BharatMarks' target customers are people and businesses in India who need trademark services in the **USA, UK, and EU**. BharatMarks is not primarily targeting people seeking trademark registration in India. This international-filing strategy supersedes any domestic-India keyword suggestions later in this document (for example, generic "trademark registration India" as a primary target). The earlier competitor notes may still be useful as general UX observations, but the priority competitor set and keyword map should be read from this correction first.
+
+## Updated strategic direction: Indian customers, overseas trademark protection
+
+### Positioning
+
+**Suggested positioning:** "Trademark registration and support for Indian businesses expanding into the USA, UK and European Union."
+
+Do not imply that one registration gives worldwide protection. Trademark rights are territorial. Present the USA, UK and EU as separate destination choices with market-specific procedures, costs, eligibility and post-filing obligations. Clarify whether BharatMarks itself provides the service or coordinates with qualified local trademark counsel. Do not claim to be a law firm or locally licensed representative unless that is verified.
+
+### More relevant competitors and benchmarks
+
+These businesses and service pages are more directly relevant to the international-from-India intent than providers focused mainly on domestic Indian trademark filing:
+
+1. **Intepat IP** — India-based IP practice with separate international filing and USA, UK and EU trademark pages. It combines country-specific service pages with process guides and explains the role of local counsel. Benchmark its jurisdiction-specific page architecture and FAQs.  
+   - [Global IP filing](https://www.intepat.com/ip-services/global-ip-filing)  
+   - [USA trademark registration](https://www.intepat.com/ip-services/trademarks/usa-trademark-registration)  
+   - [Main site / international services](https://www.intepat.com/)  
+   - Research observation: its content explicitly addresses Indian applicants and distinguishes India-side coordination from destination-country counsel.
+
+2. **GB Legal Associates** — dedicated international trademark registration page organised around destinations including the USA, UK and EU. Benchmark its country/region selector, document/process explanations and clear distinction between domestic and foreign rights.  
+   - [International trademark registration](https://gblegalassociates.com/international-trademark-registration)
+
+3. **Ascen Mark** — cross-border filing service that describes routing applications to local agents and separating official fees from professional fees. Benchmark the single-enquiry/multi-jurisdiction journey and transparent quote structure. Confirm its actual service model and destination coverage before making any public comparison.  
+   - [Ascen Mark](https://www.ascenmark.com/)
+
+4. **IILE Services** — a destination-specific USA trademark page framed for Indian exporters. Benchmark its audience-specific language, USA-versus-India explanation and exporter/e-commerce use cases.  
+   - [USA trademark for Indian exporters](https://www.iile.co.in/services/usa-trademark)
+
+5. **ComplyKart** — US trademark service page with cost/process FAQs, separate government and service fee framing, and a callback/WhatsApp CTA. Benchmark the enquiry flow and the questions answered before a lead submits details.  
+   - [US trademark registration](https://www.complykart.com/service/us-trademark-registration)
+
+6. **Panasian IP** — international IP practice with a clear entry point for Indian applicants filing abroad. It covers broader IP services as well, so use it as a navigation and positioning benchmark rather than assuming its scope matches BharatMarks.  
+   - [Panasian IP](https://panasianip.com/)
+
+7. **Official destination offices** — not commercial competitors, but essential primary sources for factual content:
+   - [USPTO](https://www.uspto.gov/trademarks) — United States
+   - [UK IPO](https://www.gov.uk/government/organisations/intellectual-property-office) — United Kingdom
+   - [EUIPO](https://www.euipo.europa.eu/) — European Union
+   - [WIPO Madrid System](https://www.wipo.int/madrid/en/) — international application route where eligibility and circumstances permit
+
+**Competitive differentiation:** BharatMarks can make its offer easier to understand for Indian businesses by letting visitors choose destination market(s), explaining the route at a high level, collecting the information needed for a quote, clearly separating official fees from service fees, and explaining how qualified destination-country representatives are involved.
+
+### Revised keyword map
+
+Prioritise phrases that include the destination and the Indian customer's perspective. Exact volumes and difficulty must be validated with Keyword Planner/SEO tools and Search Console; the list below is a strategic hypothesis, not measured volume data.
+
+| Page / landing page | Primary keyword themes | Secondary intent |
+|---|---|---|
+| Home | international trademark registration from India; foreign trademark registration services India | trademark services for Indian businesses expanding overseas |
+| USA service | US trademark registration from India; USA trademark registration for Indian company | USPTO trademark filing for Indian businesses; US trademark cost from India |
+| UK service | UK trademark registration from India; trademark registration in UK for Indian company | UKIPO trademark application; UK trademark fees and process |
+| EU service | EU trademark registration from India; European Union trademark registration for Indian business | EUIPO trademark application; EU trademark cost and coverage |
+| Search / clearance | international trademark search; US trademark search for Indian brand | check brand name in USA/UK/EU; trademark availability by market |
+| Objection / office action | US trademark office action response; UK trademark objection assistance; EU trademark objection support | examination response and hearing support, scoped by jurisdiction |
+| Hearing / representation | trademark hearing or representation USA/UK/EU | only target these if BharatMarks actually arranges qualified counsel and the service is confirmed |
+| Renewal / maintenance | US trademark renewal from India; UK trademark renewal; EU trademark renewal | ongoing maintenance and declaration deadlines, only where offered |
+| Assignment / transfer | international trademark assignment; transfer trademark ownership USA/UK/EU | recordal of ownership changes, only where offered |
+
+Use country spelling and phrasing variants naturally in copy; do not create duplicate pages solely for "USA" versus "US". For EU coverage, explain that an EU trade mark is a regional route and is not identical to a UK registration. A UK registration should be its own destination page.
+
+### Revised information architecture
+
+- **Home:** international trademark help for Indian businesses; prominent USA, UK and EU destination cards.
+- **USA Trademark Registration:** filing routes at a high level, required information, foreign applicant requirements, process and quote CTA.
+- **UK Trademark Registration:** UK-specific process and scope, distinct from EU protection.
+- **EU Trademark Registration:** EUIPO / EU trade mark overview and territory coverage.
+- **Trademark Search & Clearance:** ask which market(s) to search and explain that search is not a guarantee of registration.
+- **Trademark Objection / Office Action:** explain that terminology, procedure and representation requirements vary by destination; route the enquiry to qualified local counsel as required.
+- **Trademark Renewal / Maintenance:** separate jurisdiction-specific information only if these services are actually offered.
+- **Trademark Assignment / Transfer:** jurisdiction-specific recordal support only if offered.
+- **How It Works:** enquiry → destination and mark details → preliminary scope/quote → engagement and local counsel coordination as needed → filing/status updates.
+- **Guides & FAQs:** market-specific answers with primary-source links and reviewed dates.
+- **About / Contact / Privacy / Terms / Disclaimer:** accurately identify the provider, data collection, fees, limitations and partner/counsel model.
+
+### Revised homepage message and conversion journey
+
+Hero headline option:
+
+**Protect Your Brand in the USA, UK and EU**
+
+Supporting line:
+
+"Trademark search, filing and ongoing support for Indian founders and businesses entering international markets. Tell us where you need protection and we'll help clarify the next steps."
+
+Primary CTA: **Get an International Trademark Quote**  
+Secondary CTA: **Choose Your Destination**
+
+Enquiry fields should include destination(s) (USA, UK, EU; allow multiple), mark/name, goods/services, applicant country, whether the mark is already in use or planned, and preferred contact method. Collect only what is necessary and disclose how the team will use the information.
+
+Add a visible note that each jurisdiction has its own rules and fees, and that filing does not guarantee registration. If the service is delivered through foreign associates, explain that clearly and accurately rather than suggesting BharatMarks itself has local legal credentials it does not hold.
+
+### Legal and delivery caveats
+
+- For US filings, foreign-domiciled applicants generally must be represented by a US-licensed attorney before the USPTO; verify current official rules and the actual partner workflow before promising service. See the [USPTO](https://www.uspto.gov/trademarks) and its [India IPR Toolkit](https://www.uspto.gov/sites/default/files/documents/opia-apr26-toolkit-india.pdf).
+- UK and EU procedures, coverage and representation requirements differ; link to [UK IPO](https://www.gov.uk/government/organisations/intellectual-property-office) and [EUIPO](https://www.euipo.europa.eu/) official information.
+- Madrid Protocol routes are not a universal substitute for direct filings; suitability depends on the applicant, home application/registration, target markets and strategic circumstances. Explain this only with qualified review.
+- Do not state fixed government fees or timelines as permanent. Confirm current official fees before filing; separate official fees and professional charges in quotes.
+- Do not invent reviews, team qualifications, partner firms, client counts, legal approvals or success rates.
+- The 10-day target can cover a focused v1 if the scope and partner process are confirmed immediately. Destination-specific legal copy and review by appropriately qualified counsel are critical dependencies.
+
+---
+
 # BharatMarks Competitor & Keyword Benchmark
 
 **Prepared by:** The Tech Makers  
