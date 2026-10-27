@@ -1,24 +1,24 @@
-> **Scope correction — 27 October 2026:** BharatMarks' target customers are people and businesses in India who need trademark services in the **USA, UK, and EU**. BharatMarks is not primarily targeting people seeking trademark registration in India. This international-filing strategy supersedes any domestic-India keyword suggestions later in this document (for example, generic "trademark registration India" as a primary target). The earlier competitor notes may still be useful as general UX observations, but the priority competitor set and keyword map should be read from this correction first.
+> **Scope correction — 27 October 2026:** BharatMarks' target customers are people and businesses in India who need trademark services in the **USA, UK, EU, and Australia**. BharatMarks is not primarily targeting people seeking trademark registration in India. This international-filing strategy supersedes any domestic-India keyword suggestions later in this document (for example, generic "trademark registration India" as a primary target). The earlier competitor notes may still be useful as general UX observations, but the priority competitor set and keyword map should be read from this correction first.
 
 ## Updated strategic direction: Indian customers, overseas trademark protection
 
 ### Positioning
 
-**Suggested positioning:** "Trademark registration and support for Indian businesses expanding into the USA, UK and European Union."
+**Suggested positioning:** "Trademark registration and support for Indian businesses expanding into the USA, UK, European Union and Australia."
 
-Do not imply that one registration gives worldwide protection. Trademark rights are territorial. Present the USA, UK and EU as separate destination choices with market-specific procedures, costs, eligibility and post-filing obligations. Clarify whether BharatMarks itself provides the service or coordinates with qualified local trademark counsel. Do not claim to be a law firm or locally licensed representative unless that is verified.
+Do not imply that one registration gives worldwide protection. Trademark rights are territorial. Present the USA, UK, EU and Australia as separate destination choices with market-specific procedures, costs, eligibility and post-filing obligations. Clarify whether BharatMarks itself provides the service or coordinates with qualified local trademark counsel. Do not claim to be a law firm or locally licensed representative unless that is verified.
 
 ### More relevant competitors and benchmarks
 
 These businesses and service pages are more directly relevant to the international-from-India intent than providers focused mainly on domestic Indian trademark filing:
 
-1. **Intepat IP** — India-based IP practice with separate international filing and USA, UK and EU trademark pages. It combines country-specific service pages with process guides and explains the role of local counsel. Benchmark its jurisdiction-specific page architecture and FAQs.  
+1. **Intepat IP** — India-based IP practice with separate international filing and USA, UK, EU and Australia trademark pages. It combines country-specific service pages with process guides and explains the role of local counsel. Benchmark its jurisdiction-specific page architecture and FAQs.  
    - [Global IP filing](https://www.intepat.com/ip-services/global-ip-filing)  
    - [USA trademark registration](https://www.intepat.com/ip-services/trademarks/usa-trademark-registration)  
    - [Main site / international services](https://www.intepat.com/)  
    - Research observation: its content explicitly addresses Indian applicants and distinguishes India-side coordination from destination-country counsel.
 
-2. **GB Legal Associates** — dedicated international trademark registration page organised around destinations including the USA, UK and EU. Benchmark its country/region selector, document/process explanations and clear distinction between domestic and foreign rights.  
+2. **GB Legal Associates** — dedicated international trademark registration page organised around destinations including the USA, UK, EU and Australia. Benchmark its country/region selector, document/process explanations and clear distinction between domestic and foreign rights.  
    - [International trademark registration](https://gblegalassociates.com/international-trademark-registration)
 
 3. **Ascen Mark** — cross-border filing service that describes routing applications to local agents and separating official fees from professional fees. Benchmark the single-enquiry/multi-jurisdiction journey and transparent quote structure. Confirm its actual service model and destination coverage before making any public comparison.  
@@ -37,7 +37,7 @@ These businesses and service pages are more directly relevant to the internation
    - [USPTO](https://www.uspto.gov/trademarks) — United States
    - [UK IPO](https://www.gov.uk/government/organisations/intellectual-property-office) — United Kingdom
    - [EUIPO](https://www.euipo.europa.eu/) — European Union
-   - [WIPO Madrid System](https://www.wipo.int/madrid/en/) — international application route where eligibility and circumstances permit
+   - [IP Australia](https://www.ipaustralia.gov.au/trade-marks) — Australia\n   - [WIPO Madrid System](https://www.wipo.int/madrid/en/) — international application route where eligibility and circumstances permit
 
 **Competitive differentiation:** BharatMarks can make its offer easier to understand for Indian businesses by letting visitors choose destination market(s), explaining the route at a high level, collecting the information needed for a quote, clearly separating official fees from service fees, and explaining how qualified destination-country representatives are involved.
 
@@ -50,8 +50,8 @@ Prioritise phrases that include the destination and the Indian customer's perspe
 | Home | international trademark registration from India; foreign trademark registration services India | trademark services for Indian businesses expanding overseas |
 | USA service | US trademark registration from India; USA trademark registration for Indian company | USPTO trademark filing for Indian businesses; US trademark cost from India |
 | UK service | UK trademark registration from India; trademark registration in UK for Indian company | UKIPO trademark application; UK trademark fees and process |
-| EU service | EU trademark registration from India; European Union trademark registration for Indian business | EUIPO trademark application; EU trademark cost and coverage |
-| Search / clearance | international trademark search; US trademark search for Indian brand | check brand name in USA/UK/EU; trademark availability by market |
+| EU service | EU trademark registration from India; European Union trademark registration for Indian business | EUIPO trademark application; EU trademark cost and coverage |\n| Australia service | Australian trademark registration from India; Australia trademark registration for Indian company | IP Australia trademark application; Australian trademark search, fees and process |
+| Search / clearance | international trademark search; US trademark search for Indian brand | check brand name in USA/UK/EU/Australia; trademark availability by market |
 | Objection / office action | US trademark office action response; UK trademark objection assistance; EU trademark objection support | examination response and hearing support, scoped by jurisdiction |
 | Hearing / representation | trademark hearing or representation USA/UK/EU | only target these if BharatMarks actually arranges qualified counsel and the service is confirmed |
 | Renewal / maintenance | US trademark renewal from India; UK trademark renewal; EU trademark renewal | ongoing maintenance and declaration deadlines, only where offered |
@@ -61,10 +61,10 @@ Use country spelling and phrasing variants naturally in copy; do not create dupl
 
 ### Revised information architecture
 
-- **Home:** international trademark help for Indian businesses; prominent USA, UK and EU destination cards.
+- **Home:** international trademark help for Indian businesses; prominent USA, UK, EU and Australia destination cards.
 - **USA Trademark Registration:** filing routes at a high level, required information, foreign applicant requirements, process and quote CTA.
 - **UK Trademark Registration:** UK-specific process and scope, distinct from EU protection.
-- **EU Trademark Registration:** EUIPO / EU trade mark overview and territory coverage.
+- **EU Trademark Registration:** EUIPO / EU trade mark overview and territory coverage.\n- **Australia Trademark Registration:** Australian filing process, search/clearance, applicant and address-for-service considerations, fees and quote CTA, with local representation requirements verified before publication.
 - **Trademark Search & Clearance:** ask which market(s) to search and explain that search is not a guarantee of registration.
 - **Trademark Objection / Office Action:** explain that terminology, procedure and representation requirements vary by destination; route the enquiry to qualified local counsel as required.
 - **Trademark Renewal / Maintenance:** separate jurisdiction-specific information only if these services are actually offered.
@@ -77,7 +77,7 @@ Use country spelling and phrasing variants naturally in copy; do not create dupl
 
 Hero headline option:
 
-**Protect Your Brand in the USA, UK and EU**
+**Protect Your Brand in the USA, UK, EU and Australia**
 
 Supporting line:
 
@@ -86,7 +86,7 @@ Supporting line:
 Primary CTA: **Get an International Trademark Quote**  
 Secondary CTA: **Choose Your Destination**
 
-Enquiry fields should include destination(s) (USA, UK, EU; allow multiple), mark/name, goods/services, applicant country, whether the mark is already in use or planned, and preferred contact method. Collect only what is necessary and disclose how the team will use the information.
+Enquiry fields should include destination(s) (USA, UK, EU, Australia; allow multiple), mark/name, goods/services, applicant country, whether the mark is already in use or planned, and preferred contact method. Collect only what is necessary and disclose how the team will use the information.
 
 Add a visible note that each jurisdiction has its own rules and fees, and that filing does not guarantee registration. If the service is delivered through foreign associates, explain that clearly and accurately rather than suggesting BharatMarks itself has local legal credentials it does not hold.
 
@@ -323,6 +323,9 @@ Use a baseline and compare after launch rather than promising a fixed ranking:
 - Trust/security: verified contact details, accurate privacy/policy pages, no fabricated testimonials or credentials.
 
 ## 10. Sources checked
+
+- [IP Australia — How to apply for a trade mark](https://www.ipaustralia.gov.au/trade-marks/how-to-apply-for-a-trade-mark) — ownership, eligibility, search and application steps. The Australian filing page notes applicant/address-for-service requirements; verify the appropriate filing route and representative arrangement for each client's circumstances before publishing specific guidance.
+- [IP Australia — Timeframes and fees](https://www.ipaustralia.gov.au/trade-marks/timeframes-and-fees) — official current process, timeline and fee reference; check again before publishing any figures.
 
 Public sources reviewed on 27 October 2026. Prices, features and package inclusions can change; the list below is for strategy research, not endorsement.
 
