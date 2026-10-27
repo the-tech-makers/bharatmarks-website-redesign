@@ -12,13 +12,13 @@ Do not imply that one registration gives worldwide protection. Trademark rights 
 
 These businesses and service pages are more directly relevant to the international-from-India intent than providers focused mainly on domestic Indian trademark filing:
 
-1. **Intepat IP** — India-based IP practice with separate international filing and USA, UK, EU and Australia trademark pages. It combines country-specific service pages with process guides and explains the role of local counsel. Benchmark its jurisdiction-specific page architecture and FAQs.  
+1. **Intepat IP** — India-based IP practice with separate international filing and USA, UK and EU trademark pages. It combines country-specific service pages with process guides and explains the role of local counsel. Benchmark its jurisdiction-specific page architecture and FAQs.  
    - [Global IP filing](https://www.intepat.com/ip-services/global-ip-filing)  
    - [USA trademark registration](https://www.intepat.com/ip-services/trademarks/usa-trademark-registration)  
    - [Main site / international services](https://www.intepat.com/)  
    - Research observation: its content explicitly addresses Indian applicants and distinguishes India-side coordination from destination-country counsel.
 
-2. **GB Legal Associates** — dedicated international trademark registration page organised around destinations including the USA, UK, EU and Australia. Benchmark its country/region selector, document/process explanations and clear distinction between domestic and foreign rights.  
+2. **GB Legal Associates** — dedicated international trademark registration page organised around destinations including the USA, UK and EU. Benchmark its country/region selector, document/process explanations and clear distinction between domestic and foreign rights.  
    - [International trademark registration](https://gblegalassociates.com/international-trademark-registration)
 
 3. **Ascen Mark** — cross-border filing service that describes routing applications to local agents and separating official fees from professional fees. Benchmark the single-enquiry/multi-jurisdiction journey and transparent quote structure. Confirm its actual service model and destination coverage before making any public comparison.  
@@ -50,12 +50,13 @@ Prioritise phrases that include the destination and the Indian customer's perspe
 | Home | international trademark registration from India; foreign trademark registration services India | trademark services for Indian businesses expanding overseas |
 | USA service | US trademark registration from India; USA trademark registration for Indian company | USPTO trademark filing for Indian businesses; US trademark cost from India |
 | UK service | UK trademark registration from India; trademark registration in UK for Indian company | UKIPO trademark application; UK trademark fees and process |
-| EU service | EU trademark registration from India; European Union trademark registration for Indian business | EUIPO trademark application; EU trademark cost and coverage |\n| Australia service | Australian trademark registration from India; Australia trademark registration for Indian company | IP Australia trademark application; Australian trademark search, fees and process |
+| EU service | EU trademark registration from India; European Union trademark registration for Indian business | EUIPO trademark application; EU trademark cost and coverage |
+| Australia service | Australian trademark registration from India; Australia trademark registration for Indian company | IP Australia trademark application; Australian trademark search, fees and process |
 | Search / clearance | international trademark search; US trademark search for Indian brand | check brand name in USA/UK/EU/Australia; trademark availability by market |
 | Objection / office action | US trademark office action response; UK trademark objection assistance; EU trademark objection support | examination response and hearing support, scoped by jurisdiction |
-| Hearing / representation | trademark hearing or representation USA/UK/EU | only target these if BharatMarks actually arranges qualified counsel and the service is confirmed |
-| Renewal / maintenance | US trademark renewal from India; UK trademark renewal; EU trademark renewal | ongoing maintenance and declaration deadlines, only where offered |
-| Assignment / transfer | international trademark assignment; transfer trademark ownership USA/UK/EU | recordal of ownership changes, only where offered |
+| Hearing / representation | trademark hearing or representation USA/UK/EU/Australia | only target these if BharatMarks actually arranges qualified counsel and the service is confirmed |
+| Renewal / maintenance | US trademark renewal from India; UK trademark renewal; EU trademark renewal; Australian trademark renewal | ongoing maintenance and declaration deadlines, only where offered |
+| Assignment / transfer | international trademark assignment; transfer trademark ownership USA/UK/EU/Australia | recordal of ownership changes, only where offered |
 
 Use country spelling and phrasing variants naturally in copy; do not create duplicate pages solely for "USA" versus "US". For EU coverage, explain that an EU trade mark is a regional route and is not identical to a UK registration. A UK registration should be its own destination page.
 
@@ -64,7 +65,8 @@ Use country spelling and phrasing variants naturally in copy; do not create dupl
 - **Home:** international trademark help for Indian businesses; prominent USA, UK, EU and Australia destination cards.
 - **USA Trademark Registration:** filing routes at a high level, required information, foreign applicant requirements, process and quote CTA.
 - **UK Trademark Registration:** UK-specific process and scope, distinct from EU protection.
-- **EU Trademark Registration:** EUIPO / EU trade mark overview and territory coverage.\n- **Australia Trademark Registration:** Australian filing process, search/clearance, applicant and address-for-service considerations, fees and quote CTA, with local representation requirements verified before publication.
+- **EU Trademark Registration:** EUIPO / EU trade mark overview and territory coverage.
+- **Australia Trademark Registration:** Australian filing process, search/clearance, applicant and address-for-service considerations, fees and quote CTA, with local representation requirements verified before publication.
 - **Trademark Search & Clearance:** ask which market(s) to search and explain that search is not a guarantee of registration.
 - **Trademark Objection / Office Action:** explain that terminology, procedure and representation requirements vary by destination; route the enquiry to qualified local counsel as required.
 - **Trademark Renewal / Maintenance:** separate jurisdiction-specific information only if these services are actually offered.
