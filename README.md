@@ -230,3 +230,8 @@ Authorize a short discovery and security phase. Collect read-only analytics/Sear
 - Automated reputation signal: ScamAdviser: https://www.scamadviser.com/check-website/bharatmarks.com
 
 Automated reputation services can be inaccurate; their findings are risk signals, not proof that the site is malicious or compromised. No authenticated access, source-code audit, full URL crawl, server-log review, or penetration test was performed.
+
+
+## Additional research
+
+- [Competitor and keyword benchmark](research/competitor-and-keyword-benchmark.md) — competitor positioning, qualitative keyword clusters, service-page mapping, SEO/AEO/GEO recommendations, content guardrails, and a 10-day delivery plan.
