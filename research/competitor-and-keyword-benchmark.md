@@ -37,7 +37,8 @@ These businesses and service pages are more directly relevant to the internation
    - [USPTO](https://www.uspto.gov/trademarks) — United States
    - [UK IPO](https://www.gov.uk/government/organisations/intellectual-property-office) — United Kingdom
    - [EUIPO](https://www.euipo.europa.eu/) — European Union
-   - [IP Australia](https://www.ipaustralia.gov.au/trade-marks) — Australia\n   - [WIPO Madrid System](https://www.wipo.int/madrid/en/) — international application route where eligibility and circumstances permit
+   - [IP Australia](https://www.ipaustralia.gov.au/trade-marks) — Australia
+   - [WIPO Madrid System](https://www.wipo.int/madrid/en/) — international application route where eligibility and circumstances permit
 
 **Competitive differentiation:** BharatMarks can make its offer easier to understand for Indian businesses by letting visitors choose destination market(s), explaining the route at a high level, collecting the information needed for a quote, clearly separating official fees from service fees, and explaining how qualified destination-country representatives are involved.
 
