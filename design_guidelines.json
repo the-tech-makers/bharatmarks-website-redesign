@@ -1,0 +1,214 @@
+{
+  "brand": {
+    "name": "Bharat Marks",
+    "tagline": "India's Trusted Intellectual Property & Trademark Protection Partner",
+    "logo_url": "https://bharatmarks.com/wp-content/uploads/2024/04/Bharatmarsk_logoforweb_bluewithGANDO.png",
+    "page_title": "Bharat Marks | Trademark & Intellectual Property Services in India",
+    "emotional_archetype": "Swiss & High-Contrast / Corporate Luxury & Trust",
+    "tone": "Professional, authoritative, transparent, approachable, modern corporate identity"
+  },
+  "colors": {
+    "palette": {
+      "primary_navy": "#0B132B",
+      "navy_dark": "#070B19",
+      "navy_light": "#1C2541",
+      "gold_accent": "#D4AF37",
+      "gold_warm": "#C5A059",
+      "gold_light": "#F3E5AB",
+      "background_light": "#F8FAFC",
+      "card_light": "#FFFFFF",
+      "border_light": "#E2E8F0",
+      "text_dark": "#0F172A",
+      "text_muted": "#475569",
+      "text_gold": "#B48E28"
+    },
+    "gradients": {
+      "gold_glow": "bg-gradient-to-r from-[#D4AF37] to-[#C5A059]",
+      "navy_hero": "bg-gradient-to-b from-[#0B132B] via-[#1C2541] to-[#070B19]",
+      "card_accent": "bg-gradient-to-br from-[#FFFFFF] to-[#F1F5F9]"
+    }
+  },
+  "typography": {
+    "heading_font": "Playfair Display / Serif, Georgia, sans-serif for high impact headings",
+    "body_font": "Plus Jakarta Sans / Inter, system-ui, sans-serif for clean body readability",
+    "scale": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "body": "text-base sm:text-lg leading-relaxed text-slate-6xl",
+      "caption": "text-xs sm:text-sm font-medium uppercase tracking-widest text-amber-600"
+    }
+  },
+  "layout_and_spacing": {
+    "philosophy": "Generous spacing philosophy (2-3x default padding). Clear visual hierarchy with dark navy sections contrasting with crisp warm-light content blocks.",
+    "bento_grid": "3-column and 4-column responsive grids with high density data and asymmetric hero highlights.",
+    "container_max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+  },
+  "image_urls": {
+    "hero_office": {
+      "url": "https://images.unsplash.com/photo-1758518731706-be5d5230e5a5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBidXNpbmVzcyUyMGNvcnBvcmF0ZSUyMG9mZmljZSUyMHRyYWRlbWFyayUyMGxhd3llciUyMHRlYW18ZW58MHx8fHwxNzk0MDEzOTYzfDA&ixlib=rb-4.1.0&q=85",
+      "category": "Hero Section / Corporate Team",
+      "description": "Diverse Indian business team collaborating in a modern corporate office"
+    },
+    "legal_office": {
+      "url": "https://images.unsplash.com/photo-1630265927428-a62b061a5270?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBidXNpbmVzcyUyMGNvcnBvcmF0ZSUyMG9mZmljZSUyMHRyYWRlbWFyayUyMGxhd3llciUyMHRlYW18ZW58MHx8fHwxNzk0MDEzOTYzfDA&ixlib=rb-4.1.0&q=85",
+      "category": "Why Choose Us / Authority",
+      "description": "Premium law office exterior sign detailing trust and legal experience"
+    },
+    "corporate_meeting": {
+      "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBidXNpbmVzcyUyMGNvcnBvcmF0ZSUyMG9mZmljZSUyMHRyYWRlbWFyayUyMGxhd3llciUyMHRlYW18ZW58MHx8fHwxNzk0MDEzOTYzfDA&ixlib=rb-4.1.0&q=85",
+      "category": "Services / Strategy Consultation",
+      "description": "IP strategists and corporate founders discussing trademark protection"
+    },
+    "founder_laptop": {
+      "url": "https://images.unsplash.com/photo-1730210730648-4c0618bb3e11?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBidXNpbmVzcyUyMGVudHJlcHJlbmV1ciUyMGZvdW5kZXIlMjB3b3JraW5nJTIwbGFwdG9wfGVufDB8fHx8MTc5NDAxMzk2OXww&ixlib=rb-4.1.0&q=85",
+      "category": "Audience / Tech Founders & Startups",
+      "description": "Indian tech founder searching for trademark availability on laptop"
+    }
+  },
+  "sections": [
+    {
+      "id": "header",
+      "name": "Sticky Header with Dropdown Navigation",
+      "components": [
+        "Brand Logo (Preserve exact aspect ratio & transparency)",
+        "Desktop Navigation Links: Services (with hover dropdown), Why Us, Process, Audience, FAQ",
+        "Dropdown item cards: Trademark Registration, Copyright, Patent Filing, Response to Examination, International WIPO, Brand Protection",
+        "Quick Action Phone/WhatsApp Badge",
+        "Primary CTA Button: 'Enquire Now' (Scroll to contact form)",
+        "Mobile Menu Toggle Button (Hamburger with full screen drawer)"
+      ]
+    },
+    {
+      "id": "hero",
+      "name": "Hero Section with Instant Search Tool & Contact Trigger",
+      "components": [
+        "Eyebrow Tagline: 'OFFICIAL IP & TRADEMARK SERVICES IN INDIA'",
+        "Headline: 'Protect Your Brand Identity with Unmatched Legal Precision'",
+        "Subheadline: 'End-to-end trademark registration, patent drafting, and copyright protection backed by senior IP attorneys. No hidden fees.'",
+        "Interactive Trademark Availability Search Bar Preview (Simulated real-time search widget)",
+        "Dual CTA Buttons: 'Get Free TM Consultation' & 'Instant WhatsApp Support'",
+        "Trust Badges: 10,000+ Trademarks Filed | 99.2% Accuracy | Govt Registered Attorneys"
+      ]
+    },
+    {
+      "id": "trust_strip",
+      "name": "Trust & Credibility Metrics",
+      "components": [
+        "Key Performance Statistics Strip with gold animated accents",
+        "10k+ Trademarks Registered across 45 Classes",
+        "15+ Years IP Legal Expertise",
+        "4.9/5 Rating across 2,500+ Indian Businesses",
+        "100% Transparent Flat Fee Structure"
+      ]
+    },
+    {
+      "id": "services",
+      "name": "Comprehensive IP Services Grid",
+      "components": [
+        "Interactive Service Cards with hover highlights & modal view",
+        "1. Trademark Registration (Class Selection, Prior Art Search, Application)",
+        "2. Copyright Protection (Software Code, Literary, Visual & Sound Works)",
+        "3. Patent Filing & Drafting (Provisional & Complete Specification)",
+        "4. TM Objection & Hearing Response (Legal Representation before Registry)",
+        "5. International Trademark (WIPO Madrid System Filings)",
+        "6. Brand Monitoring & Enforcement (Cease & Desist, Watch Services)"
+      ]
+    },
+    {
+      "id": "why_choose_us",
+      "name": "Why Choose Bharat Marks",
+      "components": [
+        "Comparison Grid: Bharat Marks vs Traditional Law Firms",
+        "Tech-Driven TM Search Engine",
+        "Dedicated IP Attorney Assignment",
+        "Real-Time Status Tracking Dashboard",
+        "Zero Hidden Charges Guarantee"
+      ]
+    },
+    {
+      "id": "process",
+      "name": "4-Step Trademark Registration Process Timeline",
+      "components": [
+        "Interactive Timeline Step Cards",
+        "Step 1: Free Comprehensive TM Availability Search",
+        "Step 2: Expert Application Drafting & Class Selection",
+        "Step 3: Official Filing & Application Number Generation (Use ™ Symbol Same Day)",
+        "Step 4: Government Examination & Registration Certificate Issuance"
+      ]
+    },
+    {
+      "id": "audience",
+      "name": "Tailored Solutions for Every Business Scale",
+      "components": [
+        "Tabbed/Card view for Startups, D2C Brands, MSMEs & Corporate Enterprises, Creators & Inventors"
+      ]
+    },
+    {
+      "id": "testimonials",
+      "name": "Client Success Stories",
+      "components": [
+        "Authentic testimonial cards with star ratings, founder quotes, company names & industry badges"
+      ]
+    },
+    {
+      "id": "faq",
+      "name": "Frequently Asked Questions Accordion",
+      "components": [
+        "Interactive Accordion with search filter for common questions (Timeline, Required Documents, TM Classes, Examination Objections)"
+      ]
+    },
+    {
+      "id": "final_cta",
+      "name": "Final Action & Contact Enquiry Section",
+      "components": [
+        "Interactive Contact Form (Name, Email, Phone, Service, Business Name, Query)",
+        "Direct Contact Badges: Phone (+91 98765 43210), WhatsApp Instant Chat, Email (contact@bharatmarks.com)",
+        "Office Location Indicator (New Delhi / Mumbai, India)"
+      ]
+    },
+    {
+      "id": "footer",
+      "name": "Corporate Footer",
+      "components": [
+        "Logo & Brand Overview",
+        "Service Quick Links",
+        "Legal Disclaimers (No guaranteed registration claims; legal advice disclaimer)",
+        "Copyright 2026 Bharat Marks. All Rights Reserved."
+      ]
+    }
+  ],
+  "testing_guidelines": {
+    "data_testid_convention": "kebab-case, role-based identifiers",
+    "required_test_ids": [
+      "header-logo",
+      "header-services-dropdown",
+      "header-enquire-button",
+      "mobile-menu-button",
+      "hero-headline",
+      "hero-tm-search-input",
+      "hero-tm-search-button",
+      "hero-whatsapp-button",
+      "hero-consultation-button",
+      "service-card-trademark",
+      "service-card-copyright",
+      "service-card-patent",
+      "process-step-1",
+      "faq-accordion-item-1",
+      "contact-form-name-input",
+      "contact-form-email-input",
+      "contact-form-phone-input",
+      "contact-form-service-select",
+      "contact-form-submit-button",
+      "footer-phone-link",
+      "footer-whatsapp-link"
+    ]
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Always preserve exact logo URL: https://bharatmarks.com/wp-content/uploads/2024/04/Bharatmarsk_logoforweb_bluewithGANDO.png",
+    "Ensure all interactive elements have explicit hover and active states with distinct color contrast.",
+    "Do NOT add guaranteed registration claims or illegal legal promises.",
+    "Include data-testid attributes on all buttons, links, search inputs, dropdown triggers, accordion items, and form fields.",
+    "Use deep navy (#0B132B) and gold (#D4AF37) accent themes to establish executive authority and trust."
+  ]
+}
