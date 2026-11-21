@@ -26,7 +26,7 @@ for (const route of requiredRoutes) {
 }
 
 const rewriteConfig = await readFile(path.join(outputDirectory, ".htaccess"), "utf8");
-if (!/^DirectoryIndex\\s+index\\.html\\s*$/m.test(rewriteConfig)) {
+if (!/^DirectoryIndex\s+index\.html\s*$/m.test(rewriteConfig)) {
   throw new Error("The exported .htaccess must configure DirectoryIndex index.html.");
 }
 
