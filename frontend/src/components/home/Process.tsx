@@ -18,13 +18,13 @@ const steps = [
     num: "03",
     title: "Objection & Hearing",
     chip: "When concerns arise",
-    text: "If the Registry raises concerns, we craft responses to address them and represent you at hearings along the way.",
+    text: "If the Registry raises concerns, a written response or hearing may be relevant. We can explain the procedural options and support agreed work.",
   },
   {
     num: "04",
     title: "Registration & Renewal",
     chip: "Every 10 years",
-    text: "Once registered, we track renewal deadlines for you so your protection never quietly lapses.",
+    text: "A registration is generally valid for ten years and may be renewed for further ten-year periods. Keep the renewal date in view.",
   },
 ];
 
@@ -44,7 +44,7 @@ const Process = () => (
           dark
           eyebrow="How It Works"
           title="A clear path from idea to registered trademark"
-          description="Everything happens online. You always know which stage your application is at — and what happens next."
+          description="Many application steps can be handled online. We explain the process stages and help you understand relevant Registry updates."
         />
       </Reveal>
 

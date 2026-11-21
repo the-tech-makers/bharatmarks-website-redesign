@@ -82,6 +82,7 @@ const FAQ = () => {
                     <button
                       onClick={() => setOpenIndex(open ? -1 : i)}
                       aria-expanded={open}
+                      aria-controls={`faq-answer-${i}`}
                       className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
                     >
                       <span className="text-sm font-semibold text-navy-800 sm:text-base">{f.q}</span>
@@ -98,7 +99,7 @@ const FAQ = () => {
                         open ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
                       }`}
                     >
-                      <div className="overflow-hidden">
+                      <div id={`faq-answer-${i}`} aria-hidden={!open} className="overflow-hidden">
                         <p className="px-6 pb-6 text-sm leading-relaxed text-slate-600">{f.a}</p>
                       </div>
                     </div>

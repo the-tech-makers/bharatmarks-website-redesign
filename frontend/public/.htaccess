@@ -1,0 +1,3 @@
+# Next.js static export writes each route to a directory containing index.html.
+# Apache serves these files at clean URLs such as /contact/ and /services/trademark-search/.
+DirectoryIndex index.html

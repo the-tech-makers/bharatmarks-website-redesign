@@ -14,13 +14,13 @@ const segments: Segment[] = [
     icon: Rocket,
     title: "Startups & D2C Brands",
     lead: "Secure the name before it's famous.",
-    points: ["Search before you invest", "The right classes from day one", "Fixed, startup-friendly fees"],
+    points: ["Search before you invest", "The right classes from day one", "Understand applicable fees before proceeding"],
   },
   {
     icon: Store,
     title: "MSMEs & Local Businesses",
     lead: "Your name is your goodwill.",
-    points: ["Protect your shop and brand identity", "Simple, fully guided process", "Everything handled online"],
+    points: ["Protect your shop and brand identity", "Simple, fully guided process", "Online coordination where suitable"],
   },
   {
     icon: Building2,
@@ -32,7 +32,7 @@ const segments: Segment[] = [
     icon: Lightbulb,
     title: "Creators & Inventors",
     lead: "Ideas deserve credit — and cover.",
-    points: ["Copyright for creative works", "Patent documentation support", "Confidential, careful handling"],
+    points: ["Copyright for creative works", "Patent documentation support", "Careful document preparation"],
   },
 ];
 

@@ -62,7 +62,7 @@
   "scripts": {
     "dev": "next dev",
     "start": "next dev",
-    "build": "next build && node scripts/prefix-export-html.mjs"
+    "build": "next build && node scripts/prefix-export-html.mjs && node scripts/verify-static-export.mjs"
   },
   "browserslist": {
     "production": [
