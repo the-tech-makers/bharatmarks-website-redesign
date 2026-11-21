@@ -120,7 +120,7 @@ export default async function ServicePage({ params }: Props) {
               <ul className="mt-6 space-y-4">
                 {service.benefits.map((benefit) => <li key={benefit} className="flex gap-3 text-sm leading-6 text-slate-600"><Check className="mt-0.5 h-4 w-4 shrink-0 text-gold-700" />{benefit}</li>)}
               </ul>
-              <Link href="/#contact" className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-gold-700 transition-colors hover:text-navy-900">Talk to our team <ArrowRight className="h-4 w-4" /></Link>
+              <Link href={`/contact/?service=${service.slug}`} className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-gold-700 transition-colors hover:text-navy-900">Talk to our team <ArrowRight className="h-4 w-4" /></Link>
             </div>
           </Reveal>
         </div>
@@ -230,7 +230,7 @@ export default async function ServicePage({ params }: Props) {
               <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-4xl">Let&apos;s talk about your {service.title.toLowerCase()} needs.</h2>
               <p className="mt-4 text-sm leading-7 text-slate-300">Share a few details with our team. We&apos;ll help you understand the process and what may be required.</p>
             </div>
-            <Link href="/#contact" className="group mt-8 inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-gold-500 px-7 py-3.5 text-sm font-semibold text-navy-900 transition-colors hover:bg-gold-400 lg:mt-0">Enquire now <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" /></Link>
+            <Link href={`/contact/?service=${service.slug}`} className="group mt-8 inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-gold-500 px-7 py-3.5 text-sm font-semibold text-navy-900 transition-colors hover:bg-gold-400 lg:mt-0">Enquire now <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" /></Link>
           </div>
           <div className="mt-9 flex flex-col gap-4 text-sm sm:flex-row sm:items-center sm:justify-between">
             <Link href="/" className="inline-flex items-center gap-2 font-medium text-slate-500 transition-colors hover:text-navy-900"><ArrowLeft className="h-4 w-4" /> Back to home</Link>

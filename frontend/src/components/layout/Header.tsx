@@ -24,6 +24,7 @@ const navLinks = [
   { label: "Who We Serve", href: `${BASE_PATH}/#audience` },
   { label: "Success Stories", href: `${BASE_PATH}/#testimonials` },
   { label: "FAQ", href: `${BASE_PATH}/#faq` },
+  { label: "Contact", href: `${BASE_PATH}/contact/` },
 ];
 
 const focusRing = "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-800";
@@ -145,7 +146,7 @@ const Header = () => {
             +91 98722 36665
           </a>
           <a
-            href={`${BASE_PATH}/#contact`}
+            href={`${BASE_PATH}/contact/`}
             data-testid="header-enquire-button"
             className={`group inline-flex items-center gap-2 rounded-full bg-gold-500 px-6 py-2.5 text-sm font-semibold text-navy-800 transition-all duration-300 hover:bg-gold-400 hover:shadow-lg hover:shadow-gold-500/25 ${focusRing}`}
           >

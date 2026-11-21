@@ -20,7 +20,7 @@ const companyLinks = [
   { label: "Who We Serve", href: `${BASE_PATH}/#audience` },
   { label: "Success Stories", href: `${BASE_PATH}/#testimonials` },
   { label: "FAQ", href: `${BASE_PATH}/#faq` },
-  { label: "Contact", href: `${BASE_PATH}/#contact` },
+  { label: "Contact", href: `${BASE_PATH}/contact/` },
 ];
 
 const Footer = () => (
