@@ -16,11 +16,11 @@ const serviceLinks = [
 ];
 
 const navLinks = [
-  { label: "Why Us", href: "#why-us" },
-  { label: "Process", href: "#process" },
-  { label: "Who We Serve", href: "#audience" },
-  { label: "Success Stories", href: "#testimonials" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Why Us", href: "/bharat-marks/#why-us" },
+  { label: "Process", href: "/bharat-marks/#process" },
+  { label: "Who We Serve", href: "/bharat-marks/#audience" },
+  { label: "Success Stories", href: "/bharat-marks/#testimonials" },
+  { label: "FAQ", href: "/bharat-marks/#faq" },
 ];
 
 const Header = () => {
