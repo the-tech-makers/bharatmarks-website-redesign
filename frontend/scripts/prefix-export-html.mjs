@@ -27,13 +27,13 @@ async function updateHtmlFiles(directory) {
     }
 
     const html = await readFile(entryPath, "utf8");
-    const withBaseUrl = /<base\\b/i.test(html)
+    const withBaseUrl = /<base\b/i.test(html)
       ? html
-      : html.replace(/<head([^>]*)>/i, `<head$1><base href="${baseUrl}"/>`);
+      : html.replace(/<head([^>]*)>/i, "<head$1><base href=\"" + baseUrl + "\"/>");
     const prefixedHtml = withBaseUrl.replace(
-      /\\b(href|src|content)=("|\\')(\\/(?!\\/)[^"\\']*)\\2/gi,
+      /\b(href|src|content)=("|')(\/(?!\/)[^"']*)\2/gi,
       (_match, attribute, quote, url) =>
-        `${attribute}=${quote}https://cloud.mywwwserver.in${url}${quote}`,
+        attribute + "=" + quote + "https://cloud.mywwwserver.in" + url + quote,
     );
 
     await writeFile(entryPath, prefixedHtml);
