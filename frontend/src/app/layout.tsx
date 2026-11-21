@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Explore trademark registration, searches, objections, renewals, copyright registration and patent assistance in India with Bharat Marks.",
   alternates: { canonical: "/" },
-  icons: { icon: `${BASE_PATH}/logo.png` },
+  icons: { icon: `${BASE_PATH}/favicon.svg`, shortcut: `${BASE_PATH}/favicon.svg` },
   openGraph: {
     type: "website",
     url: SITE_URL,
