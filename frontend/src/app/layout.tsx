@@ -3,11 +3,13 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "/bharat-marks";
+
 export const metadata: Metadata = {
   title: "Bharat Marks | Trademark & Intellectual Property Services in India",
   description:
     "Protect your brand and intellectual property with Bharat Marks. Explore trademark registration, copyright, patent assistance and intellectual property services in India.",
-  icons: { icon: "/bharat-marks/logo.png" },
+  icons: { icon: `${BASE_PATH}/logo.png` },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
