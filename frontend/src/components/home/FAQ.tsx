@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "How much does trademark registration cost?",
-    a: "The total depends on the service required, the number of trademark classes and the details of your application. Contact us with your requirements so we can discuss the applicable government filing charges and professional fees before you proceed. We do not publish a one-size-fits-all fee list.",
+    a: "Government filing charges and professional fees depend on the service, the number of trademark classes and the details of your case. Contact us with your requirements so we can explain the applicable charges before you proceed.",
   },
 ];
 
