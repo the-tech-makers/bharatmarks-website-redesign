@@ -4,23 +4,25 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { ChevronDown, Menu, X, Phone, MessageCircle, ArrowRight } from "lucide-react";
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "/bharat-marks";
+
 const serviceLinks = [
-  { label: "Trademark Search", href: "/bharat-marks/services/trademark-search/" },
-  { label: "Trademark Registration", href: "/bharat-marks/services/trademark-registration/" },
-  { label: "Objection & Response", href: "/bharat-marks/services/trademark-objection/" },
-  { label: "Trademark Hearing", href: "/bharat-marks/services/trademark-hearing/" },
-  { label: "Trademark Renewal", href: "/bharat-marks/services/trademark-renewal/" },
-  { label: "Trademark Assignment", href: "/bharat-marks/services/trademark-assignment/" },
-  { label: "Copyright Registration", href: "/bharat-marks/services/copyright-registration/" },
-  { label: "Patent Assistance", href: "/bharat-marks/services/patent-assistance/" },
+  { label: "Trademark Search", href: `${BASE_PATH}/services/trademark-search/" },
+  { label: "Trademark Registration", href: `${BASE_PATH}/services/trademark-registration/" },
+  { label: "Objection & Response", href: `${BASE_PATH}/services/trademark-objection/" },
+  { label: "Trademark Hearing", href: `${BASE_PATH}/services/trademark-hearing/" },
+  { label: "Trademark Renewal", href: `${BASE_PATH}/services/trademark-renewal/" },
+  { label: "Trademark Assignment", href: `${BASE_PATH}/services/trademark-assignment/" },
+  { label: "Copyright Registration", href: `${BASE_PATH}/services/copyright-registration/" },
+  { label: "Patent Assistance", href: `${BASE_PATH}/services/patent-assistance/" },
 ];
 
 const navLinks = [
-  { label: "Why Us", href: "/bharat-marks/#why-us" },
-  { label: "Process", href: "/bharat-marks/#process" },
-  { label: "Who We Serve", href: "/bharat-marks/#audience" },
-  { label: "Success Stories", href: "/bharat-marks/#testimonials" },
-  { label: "FAQ", href: "/bharat-marks/#faq" },
+  { label: "Why Us", href: `${BASE_PATH}/#why-us" },
+  { label: "Process", href: `${BASE_PATH}/#process" },
+  { label: "Who We Serve", href: `${BASE_PATH}/#audience" },
+  { label: "Success Stories", href: `${BASE_PATH}/#testimonials" },
+  { label: "FAQ", href: `${BASE_PATH}/#faq" },
 ];
 
 const Header = () => {
@@ -47,13 +49,13 @@ const Header = () => {
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:h-20 lg:px-8">
         <a
-          href="/bharat-marks/"
+          href={`${BASE_PATH}/`}
           data-testid="header-logo"
           aria-label="Bharat Marks — home"
           className="inline-flex items-center rounded-xl bg-white px-3 py-1.5 shadow-md shadow-navy-900/40"
         >
           <Image
-            src="/bharat-marks/logo.png"
+            src={`${BASE_PATH}/logo.png`}
             alt="Bharat Marks"
             width={216}
             height={46}
@@ -112,7 +114,7 @@ const Header = () => {
             +91 98722 36665
           </a>
           <a
-            href="/bharat-marks/#contact"
+            href={`${BASE_PATH}/#contact`}
             data-testid="header-enquire-button"
             className="group inline-flex items-center gap-2 rounded-full bg-gold-500 px-6 py-2.5 text-sm font-semibold text-navy-800 transition-all duration-300 hover:bg-gold-400 hover:shadow-lg hover:shadow-gold-500/25"
           >
