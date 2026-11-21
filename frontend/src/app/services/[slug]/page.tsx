@@ -6,6 +6,8 @@ import Reveal from "@/components/base/Reveal";
 import SectionHeading from "@/components/base/SectionHeading";
 import { getService, services } from "@/data/services";
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "/bharat-marks";
+
 type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
@@ -19,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${service.title} in India | Bharat Marks`,
     description: service.summary,
-    alternates: { canonical: `/services/${service.slug}/` },
+    alternates: { canonical: `${BASE_PATH}/services/${service.slug}/` },
   };
 }
 
