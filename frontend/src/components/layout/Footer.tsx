@@ -2,23 +2,23 @@ import Image from "next/image";
 import { Phone, MessageCircle, Mail, MapPin } from "lucide-react";
 
 const serviceLinks = [
-  { label: "Trademark Search", href: "#service-trademark-search" },
-  { label: "Trademark Registration", href: "#service-trademark-registration" },
-  { label: "Objection & Response", href: "#service-trademark-objection" },
-  { label: "Trademark Hearing", href: "#service-trademark-hearing" },
-  { label: "Trademark Renewal", href: "#service-trademark-renewal" },
-  { label: "Trademark Assignment", href: "#service-trademark-assignment" },
-  { label: "Copyright Registration", href: "#service-copyright-registration" },
-  { label: "Patent Assistance", href: "#service-patent-assistance" },
+  { label: "Trademark Search", href: "/bharat-marks/services/trademark-search/" },
+  { label: "Trademark Registration", href: "/bharat-marks/services/trademark-registration/" },
+  { label: "Objection & Response", href: "/bharat-marks/services/trademark-objection/" },
+  { label: "Trademark Hearing", href: "/bharat-marks/services/trademark-hearing/" },
+  { label: "Trademark Renewal", href: "/bharat-marks/services/trademark-renewal/" },
+  { label: "Trademark Assignment", href: "/bharat-marks/services/trademark-assignment/" },
+  { label: "Copyright Registration", href: "/bharat-marks/services/copyright-registration/" },
+  { label: "Patent Assistance", href: "/bharat-marks/services/patent-assistance/" },
 ];
 
 const companyLinks = [
-  { label: "Why Us", href: "#why-us" },
-  { label: "Process", href: "#process" },
-  { label: "Who We Serve", href: "#audience" },
-  { label: "Success Stories", href: "#testimonials" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
+  { label: "Why Us", href: "/bharat-marks/#why-us" },
+  { label: "Process", href: "/bharat-marks/#process" },
+  { label: "Who We Serve", href: "/bharat-marks/#audience" },
+  { label: "Success Stories", href: "/bharat-marks/#testimonials" },
+  { label: "FAQ", href: "/bharat-marks/#faq" },
+  { label: "Contact", href: "/bharat-marks/#contact" },
 ];
 
 const Footer = () => (
