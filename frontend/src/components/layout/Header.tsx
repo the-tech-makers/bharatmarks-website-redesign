@@ -5,14 +5,14 @@ import Image from "next/image";
 import { ChevronDown, Menu, X, Phone, MessageCircle, ArrowRight } from "lucide-react";
 
 const serviceLinks = [
-  { label: "Trademark Search", href: "#service-trademark-search" },
-  { label: "Trademark Registration", href: "#service-trademark-registration" },
-  { label: "Objection & Response", href: "#service-trademark-objection" },
-  { label: "Trademark Hearing", href: "#service-trademark-hearing" },
-  { label: "Trademark Renewal", href: "#service-trademark-renewal" },
-  { label: "Trademark Assignment", href: "#service-trademark-assignment" },
-  { label: "Copyright Registration", href: "#service-copyright-registration" },
-  { label: "Patent Assistance", href: "#service-patent-assistance" },
+  { label: "Trademark Search", href: "/bharat-marks/services/trademark-search/" },
+  { label: "Trademark Registration", href: "/bharat-marks/services/trademark-registration/" },
+  { label: "Objection & Response", href: "/bharat-marks/services/trademark-objection/" },
+  { label: "Trademark Hearing", href: "/bharat-marks/services/trademark-hearing/" },
+  { label: "Trademark Renewal", href: "/bharat-marks/services/trademark-renewal/" },
+  { label: "Trademark Assignment", href: "/bharat-marks/services/trademark-assignment/" },
+  { label: "Copyright Registration", href: "/bharat-marks/services/copyright-registration/" },
+  { label: "Patent Assistance", href: "/bharat-marks/services/patent-assistance/" },
 ];
 
 const navLinks = [
@@ -47,7 +47,7 @@ const Header = () => {
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:h-20 lg:px-8">
         <a
-          href="#top"
+          href="/bharat-marks/"
           data-testid="header-logo"
           aria-label="Bharat Marks — home"
           className="inline-flex items-center rounded-xl bg-white px-3 py-1.5 shadow-md shadow-navy-900/40"
@@ -112,7 +112,7 @@ const Header = () => {
             +91 98722 36665
           </a>
           <a
-            href="#contact"
+            href="/bharat-marks/#contact"
             data-testid="header-enquire-button"
             className="group inline-flex items-center gap-2 rounded-full bg-gold-500 px-6 py-2.5 text-sm font-semibold text-navy-800 transition-all duration-300 hover:bg-gold-400 hover:shadow-lg hover:shadow-gold-500/25"
           >
