@@ -40,7 +40,7 @@ export default function EnquiryForm() {
     window.location.href = `https://wa.me/919872236665?text=${encodeURIComponent(message)}`;
   }
 
-  const inputClass = "mt-2 w-full rounded-xl border border-white/15 bg-navy-900/70 px-4 py-3 text-sm text-white placeholder:text-slate-500 outline-none transition focus:border-gold-400 focus:ring-2 focus:ring-gold-400/30";
+  const inputClass = "mt-2 min-h-12 w-full rounded-xl border border-white/15 bg-navy-900/70 px-4 py-3 text-base text-white placeholder:text-slate-500 outline-none transition focus:border-gold-400 focus:ring-2 focus:ring-gold-400/30 sm:text-sm";
 
   return (
     <form onSubmit={handleSubmit} className="rounded-2xl border border-white/10 bg-navy-700/70 p-6 shadow-2xl shadow-navy-950/20 backdrop-blur-sm sm:p-8">
@@ -57,7 +57,7 @@ export default function EnquiryForm() {
         </label>
         <label className="block text-sm font-medium text-slate-200">
           Phone or email <span className="text-gold-400">*</span>
-          <input required maxLength={150} autoComplete="email" value={contact} onChange={(event) => setContact(event.target.value)} placeholder="How can we reach you?" className={inputClass} />
+          <input required maxLength={150} autoComplete="off" inputMode="text" value={contact} onChange={(event) => setContact(event.target.value)} placeholder="How can we reach you?" className={inputClass} />
         </label>
       </div>
 
