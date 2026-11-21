@@ -121,6 +121,10 @@ const Footer = () => (
         </p>
         <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-slate-500">© 2026 Bharat Marks. All rights reserved.</p>
+          <nav aria-label="Legal" className="flex flex-wrap gap-x-5 gap-y-2 text-xs">
+            <a href={`${BASE_PATH}/privacy-policy/`} className="transition-colors hover:text-gold-400">Privacy Policy</a>
+            <a href={`${BASE_PATH}/disclaimer/`} className="transition-colors hover:text-gold-400">Disclaimer</a>
+          </nav>
           <p className="text-xs text-slate-500">Trademark · Copyright · Patent Assistance · India</p>
         </div>
       </div>
