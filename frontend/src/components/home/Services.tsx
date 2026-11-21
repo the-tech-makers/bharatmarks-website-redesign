@@ -100,7 +100,7 @@ const Services = () => (
               <h3 className="mt-5 text-lg font-semibold text-navy-800">{title}</h3>
               <p className="mt-2.5 flex-1 text-sm leading-relaxed text-slate-600">{text}</p>
               <a
-                href={`/services/${slug}/`}
+                href={`/bharat-marks/services/${slug}/`}
                 className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-gold-700 transition-colors hover:text-navy-800"
               >
                 Explore service
