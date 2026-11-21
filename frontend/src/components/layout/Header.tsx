@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { ChevronDown, Menu, X, Phone, MessageCircle, ArrowRight } from "lucide-react";
 
@@ -25,7 +26,11 @@ const navLinks = [
   { label: "FAQ", href: `${BASE_PATH}/#faq` },
 ];
 
+const focusRing = "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-800";
+
 const Header = () => {
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
   const [scrolled, setScrolled] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -38,13 +43,15 @@ const Header = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const solidHeader = scrolled || !isHomePage;
+
   return (
     <header
       data-testid="site-header"
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "border-b border-white/10 bg-navy-800/95 shadow-lg shadow-navy-900/30 backdrop-blur-md"
-          : "bg-transparent"
+      className={`fixed inset-x-0 top-0 z-50 border-b transition-all duration-300 ${
+        solidHeader
+          ? "border-white/10 bg-navy-800/95 shadow-lg shadow-navy-900/30 backdrop-blur-md"
+          : "border-transparent bg-transparent"
       }`}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:h-20 lg:px-8">
@@ -52,7 +59,7 @@ const Header = () => {
           href={`${BASE_PATH}/`}
           data-testid="header-logo"
           aria-label="Bharat Marks — home"
-          className="inline-flex items-center rounded-xl bg-white px-3 py-1.5 shadow-md shadow-navy-900/40"
+          className={`inline-flex items-center rounded-xl bg-white px-3 py-1.5 shadow-md shadow-navy-900/40 ${focusRing}`}
         >
           <Image
             src={`${BASE_PATH}/logo.png`}
@@ -64,7 +71,7 @@ const Header = () => {
           />
         </a>
 
-        <nav className="hidden items-center gap-8 text-sm font-medium text-slate-200 lg:flex">
+        <nav aria-label="Main navigation" className="hidden items-center gap-8 text-sm font-medium text-slate-200 lg:flex">
           <div
             className="relative"
             onMouseEnter={() => setServicesOpen(true)}
@@ -74,7 +81,8 @@ const Header = () => {
               data-testid="header-services-dropdown"
               onClick={() => setServicesOpen((v) => !v)}
               aria-expanded={servicesOpen}
-              className="flex items-center gap-1.5 py-2 transition-colors hover:text-gold-400"
+              aria-haspopup="true"
+              className={`flex items-center gap-1.5 rounded py-2 transition-colors hover:text-gold-400 ${focusRing}`}
             >
               Services
               <ChevronDown className={`h-4 w-4 transition-transform duration-300 ${servicesOpen ? "rotate-180" : ""}`} />
@@ -87,7 +95,7 @@ const Header = () => {
                       key={s.href}
                       href={s.href}
                       onClick={() => setServicesOpen(false)}
-                      className="rounded-xl px-4 py-3 text-sm font-medium text-navy-800 transition-colors hover:bg-gold-300/20 hover:text-navy-900"
+                      className="rounded-xl px-4 py-3 text-sm font-medium text-navy-800 transition-colors hover:bg-gold-300/20 hover:text-navy-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold-600"
                     >
                       {s.label}
                     </a>
@@ -98,7 +106,7 @@ const Header = () => {
           </div>
 
           {navLinks.map((l) => (
-            <a key={l.href} href={l.href} className="py-2 transition-colors hover:text-gold-400">
+            <a key={l.href} href={l.href} className={`rounded py-2 transition-colors hover:text-gold-400 ${focusRing}`}>
               {l.label}
             </a>
           ))}
@@ -108,7 +116,7 @@ const Header = () => {
           <a
             href="tel:+919872236665"
             data-testid="header-phone-link"
-            className="flex items-center gap-2 text-sm font-medium text-slate-200 transition-colors hover:text-gold-400"
+            className={`flex items-center gap-2 rounded text-sm font-medium text-slate-200 transition-colors hover:text-gold-400 ${focusRing}`}
           >
             <Phone className="h-4 w-4 text-gold-400" />
             +91 98722 36665
@@ -116,7 +124,7 @@ const Header = () => {
           <a
             href={`${BASE_PATH}/#contact`}
             data-testid="header-enquire-button"
-            className="group inline-flex items-center gap-2 rounded-full bg-gold-500 px-6 py-2.5 text-sm font-semibold text-navy-800 transition-all duration-300 hover:bg-gold-400 hover:shadow-lg hover:shadow-gold-500/25"
+            className={`group inline-flex items-center gap-2 rounded-full bg-gold-500 px-6 py-2.5 text-sm font-semibold text-navy-800 transition-all duration-300 hover:bg-gold-400 hover:shadow-lg hover:shadow-gold-500/25 ${focusRing}`}
           >
             Enquire Now
             <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" />
@@ -125,34 +133,36 @@ const Header = () => {
 
         <button
           data-testid="mobile-menu-button"
-          className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 text-white transition-colors hover:bg-white/10 lg:hidden"
+          className={`inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 text-white transition-colors hover:bg-white/10 lg:hidden ${focusRing}`}
           onClick={() => setMobileOpen((v) => !v)}
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
           aria-expanded={mobileOpen}
+          aria-controls="mobile-navigation"
         >
           {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </div>
 
       {mobileOpen && (
-        <div className="max-h-[calc(100vh-4rem)] overflow-y-auto border-t border-white/10 bg-navy-800 lg:hidden">
+        <div id="mobile-navigation" className="max-h-[calc(100vh-4rem)] overflow-y-auto border-t border-white/10 bg-navy-800 lg:hidden">
           <div className="space-y-1 px-4 py-6 sm:px-6">
             <button
               onClick={() => setMobileServicesOpen((v) => !v)}
-              className="flex w-full items-center justify-between rounded-xl px-4 py-3 text-left text-sm font-medium text-white transition-colors hover:bg-white/10"
+              className={`flex w-full items-center justify-between rounded-xl px-4 py-3 text-left text-sm font-medium text-white transition-colors hover:bg-white/10 ${focusRing}`}
               aria-expanded={mobileServicesOpen}
+              aria-controls="mobile-service-links"
             >
               Services
               <ChevronDown className={`h-4 w-4 text-gold-400 transition-transform duration-300 ${mobileServicesOpen ? "rotate-180" : ""}`} />
             </button>
             {mobileServicesOpen && (
-              <div className="ml-4 space-y-1 border-l border-white/10 pl-4">
+              <div id="mobile-service-links" className="ml-4 space-y-1 border-l border-white/10 pl-4">
                 {serviceLinks.map((s) => (
                   <a
                     key={s.href}
                     href={s.href}
                     onClick={() => setMobileOpen(false)}
-                    className="block rounded-lg px-4 py-2.5 text-sm text-slate-300 transition-colors hover:bg-white/10 hover:text-white"
+                    className="block rounded-lg px-4 py-2.5 text-sm text-slate-300 transition-colors hover:bg-white/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold-400"
                   >
                     {s.label}
                   </a>
@@ -164,7 +174,7 @@ const Header = () => {
                 key={l.href}
                 href={l.href}
                 onClick={() => setMobileOpen(false)}
-                className="block rounded-xl px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-white/10"
+                className={`block rounded-xl px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-white/10 ${focusRing}`}
               >
                 {l.label}
               </a>
@@ -173,7 +183,7 @@ const Header = () => {
               <a
                 href={`${BASE_PATH}/#contact`}
                 onClick={() => setMobileOpen(false)}
-                className="block rounded-full bg-gold-500 px-6 py-3 text-center text-sm font-semibold text-navy-800 transition-colors hover:bg-gold-400"
+                className={`block rounded-full bg-gold-500 px-6 py-3 text-center text-sm font-semibold text-navy-800 transition-colors hover:bg-gold-400 ${focusRing}`}
               >
                 Enquire Now
               </a>
@@ -181,7 +191,7 @@ const Header = () => {
                 href="https://wa.me/919872236665"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-white/10"
+                className={`flex items-center justify-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-white/10 ${focusRing}`}
               >
                 <MessageCircle className="h-4 w-4 text-gold-400" />
                 Chat on WhatsApp
