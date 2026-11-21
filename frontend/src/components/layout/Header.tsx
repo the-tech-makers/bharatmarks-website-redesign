@@ -7,22 +7,22 @@ import { ChevronDown, Menu, X, Phone, MessageCircle, ArrowRight } from "lucide-r
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "/bharat-marks";
 
 const serviceLinks = [
-  { label: "Trademark Search", href: `${BASE_PATH}/services/trademark-search/" },
-  { label: "Trademark Registration", href: `${BASE_PATH}/services/trademark-registration/" },
-  { label: "Objection & Response", href: `${BASE_PATH}/services/trademark-objection/" },
-  { label: "Trademark Hearing", href: `${BASE_PATH}/services/trademark-hearing/" },
-  { label: "Trademark Renewal", href: `${BASE_PATH}/services/trademark-renewal/" },
-  { label: "Trademark Assignment", href: `${BASE_PATH}/services/trademark-assignment/" },
-  { label: "Copyright Registration", href: `${BASE_PATH}/services/copyright-registration/" },
-  { label: "Patent Assistance", href: `${BASE_PATH}/services/patent-assistance/" },
+  { label: "Trademark Search", href: `${BASE_PATH}/services/trademark-search/` },
+  { label: "Trademark Registration", href: `${BASE_PATH}/services/trademark-registration/` },
+  { label: "Objection & Response", href: `${BASE_PATH}/services/trademark-objection/` },
+  { label: "Trademark Hearing", href: `${BASE_PATH}/services/trademark-hearing/` },
+  { label: "Trademark Renewal", href: `${BASE_PATH}/services/trademark-renewal/` },
+  { label: "Trademark Assignment", href: `${BASE_PATH}/services/trademark-assignment/` },
+  { label: "Copyright Registration", href: `${BASE_PATH}/services/copyright-registration/` },
+  { label: "Patent Assistance", href: `${BASE_PATH}/services/patent-assistance/` },
 ];
 
 const navLinks = [
-  { label: "Why Us", href: `${BASE_PATH}/#why-us" },
-  { label: "Process", href: `${BASE_PATH}/#process" },
-  { label: "Who We Serve", href: `${BASE_PATH}/#audience" },
-  { label: "Success Stories", href: `${BASE_PATH}/#testimonials" },
-  { label: "FAQ", href: `${BASE_PATH}/#faq" },
+  { label: "Why Us", href: `${BASE_PATH}/#why-us` },
+  { label: "Process", href: `${BASE_PATH}/#process` },
+  { label: "Who We Serve", href: `${BASE_PATH}/#audience` },
+  { label: "Success Stories", href: `${BASE_PATH}/#testimonials` },
+  { label: "FAQ", href: `${BASE_PATH}/#faq` },
 ];
 
 const Header = () => {
