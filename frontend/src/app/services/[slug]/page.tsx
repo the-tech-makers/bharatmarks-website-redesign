@@ -6,7 +6,7 @@ import Reveal from "@/components/base/Reveal";
 import SectionHeading from "@/components/base/SectionHeading";
 import { getService, services } from "@/data/services";
 
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "/bharat-marks";
+const SITE_URL = "https://bharatmarks.com";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${service.title} in India | Bharat Marks`,
     description: service.summary,
-    alternates: { canonical: `${BASE_PATH}/services/${service.slug}/` },
+    alternates: { canonical: `/services/${service.slug}/` },
   };
 }
 
@@ -30,12 +30,43 @@ export default async function ServicePage({ params }: Props) {
   const service = getService(slug);
   if (!service) notFound();
 
+  const canonicalUrl = `${SITE_URL}/services/${service.slug}/`;
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title,
+    description: service.summary,
+    serviceType: service.title,
+    url: canonicalUrl,
+    areaServed: { "@type": "Country", name: "India" },
+    provider: { "@type": "Organization", name: "Bharat Marks", url: SITE_URL },
+  };
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Services", item: `${SITE_URL}/#services` },
+      { "@type": "ListItem", position: 3, name: service.title, item: canonicalUrl },
+    ],
+  };
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: service.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: { "@type": "Answer", text: faq.answer },
+    })),
+  };
+
   const relatedServices = service.related
     .map((relatedSlug) => getService(relatedSlug))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));
 
   return (
     <main className="overflow-hidden bg-white pt-16 lg:pt-20">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([serviceSchema, breadcrumbSchema, faqSchema]) }} />
       <section className="relative isolate overflow-hidden bg-navy-900 py-16 text-white sm:py-20 lg:py-24">
         <div className="absolute inset-0 -z-10 bg-noise" />
         <div className="absolute -right-32 -top-40 -z-10 h-[28rem] w-[28rem] rounded-full border border-gold-500/15" />
