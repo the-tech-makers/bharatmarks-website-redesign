@@ -50,9 +50,8 @@ const FinalCTA = () => (
         </Reveal>
         <Reveal delay={0.16}>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-300 sm:text-lg">
-            Tell us about your brand and we&apos;ll take a look at your application with you — free
-            of charge, fully online. Fees are shared upfront, before we begin, and we keep you
-            informed at every step.
+            Tell us about your brand or application. We can discuss the relevant process, documents and
+            applicable charges so you can understand the next steps before deciding how to proceed.
           </p>
         </Reveal>
         <Reveal delay={0.24}>

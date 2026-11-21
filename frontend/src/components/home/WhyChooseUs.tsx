@@ -5,27 +5,27 @@ import Reveal from "@/components/base/Reveal";
 const features = [
   {
     icon: Route,
-    title: "Seamless Registration",
-    text: "We guide you through the entire trademark registration process in India, from initial consultation to registration approval.",
+    title: "Understand the Process",
+    text: "Get guidance on the stages of a trademark application, from an initial search through examination and later updates.",
   },
   {
     icon: GraduationCap,
-    title: "Expert Advice",
-    text: "Our team has a deep understanding of trademark law and advises you on the best course of action for your specific brand.",
+    title: "Considered Guidance",
+    text: "Discuss your mark, business activity and available information to understand possible filing approaches and next steps.",
   },
   {
     icon: BadgeIndianRupee,
-    title: "Affordable Solutions",
-    text: "Competitive fees and transparent pricing, so you can invest in your brand protection with confidence.",
+    title: "Understand the Costs",
+    text: "Ask about the government charges and professional fees that may apply to your particular requirement before proceeding.",
   },
   {
     icon: MapPin,
-    title: "National Presence",
-    text: "We assist clients across India, ensuring your trademark is safe no matter where you are located.",
+    title: "India-Focused Services",
+    text: "Explore trademark and intellectual property assistance for business owners and creators in India.",
   },
 ];
 
-const outcomes = ["Prevent infringement", "Build brand recognition", "Gain exclusive rights"];
+const outcomes = ["Understand your options", "Make informed filing decisions", "Keep records organised"];
 
 const WhyChooseUs = () => (
   <section id="why-us" className="scroll-mt-20 bg-white py-24 lg:py-28">

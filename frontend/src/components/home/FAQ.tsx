@@ -7,8 +7,8 @@ import Reveal from "@/components/base/Reveal";
 
 const faqs = [
   {
-    q: "What is a trademark attorney, and why do I need one?",
-    a: "A trademark attorney specialises in trademark law. They help you navigate the Indian registration process, ensuring your application is complete and well prepared — saving you time and helping you avoid common pitfalls.",
+    q: "Why may I need help with a trademark application?",
+    a: "The process involves choosing the relevant goods or services, preparing applicant and mark details, and responding to Registry communications if they arise. Guidance can help you understand the requirements and avoid common filing mistakes.",
   },
   {
     q: "What can be trademarked?",
@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "How long does the trademark registration process take?",
-    a: "In India, registration typically takes anywhere from 12 to 18 months, depending on any challenges that arise. We keep you informed at every stage of the process.",
+    a: "There is no single timeline for every application. The process can be affected by examination, objections, hearings, opposition proceedings and Registry workload. Any estimate should be considered in light of the status and circumstances of the particular application.",
   },
   {
     q: "What is a trademark search, and why is it important?",
@@ -24,11 +24,11 @@ const faqs = [
   },
   {
     q: "What happens if the Trademark Office raises objections to my application?",
-    a: "If the Registry raises concerns, we help you understand the issues and craft a response to address them — and represent you at hearings if required.",
+    a: "An examination report should be reviewed carefully so that each issue and any response deadline can be understood. Depending on the case, a written response, supporting documents or a hearing may be relevant.",
   },
   {
     q: "How do I renew my trademark registration?",
-    a: "Trademarks must be renewed every 10 years to maintain protection. We can manage the renewal process for you, ensuring your brand stays protected.",
+    a: "A trademark registration is generally valid for ten years and may be renewed for further ten-year periods. The registration number, proprietor details and renewal due date should be checked before taking action.",
   },
   {
     q: "How much does trademark registration cost?",
@@ -53,8 +53,8 @@ const FAQ = () => {
           <Reveal delay={0.12}>
             <div className="mt-8 rounded-2xl border border-slate-200 bg-white p-6">
               <p className="text-sm leading-relaxed text-slate-600">
-                Still unsure about something? Tell us about your brand and we&apos;ll point you in
-                the right direction — the first consultation is free.
+                Still unsure about something? Tell us about your brand and we can explain the information
+                needed to understand your options and possible next steps.
               </p>
               <a
                 href="#contact"

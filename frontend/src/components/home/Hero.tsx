@@ -1,7 +1,7 @@
 import { ArrowRight, MessageCircle, Check, ShieldCheck, CalendarClock } from "lucide-react";
 import Reveal from "@/components/base/Reveal";
 
-const trustChips = ["Transparent flat fees", "Dedicated attorneys", "Pan-India service"];
+const trustChips = ["Trademark & IP support", "Clear process guidance", "Businesses & creators"];
 
 const Hero = () => (
   <section id="top" className="bg-noise relative overflow-hidden bg-navy-800 text-white">
@@ -34,9 +34,9 @@ const Hero = () => (
 
         <Reveal delay={0.16}>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-slate-300 sm:text-lg">
-            From trademark search to registration, objection and renewal — Bharat Marks handles the
-            paperwork while you build the business. Clear guidance, honest fees and a team that
-            speaks plain English.
+            From trademark search and filing to objections and renewals, explore practical support for
+            protecting your brand. We explain the process, documents and possible next steps in
+            straightforward language.
           </p>
         </Reveal>
 
@@ -47,7 +47,7 @@ const Hero = () => (
               data-testid="hero-consultation-button"
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-gold-500 px-8 py-4 text-sm font-semibold text-navy-800 transition-all duration-300 hover:bg-gold-400 hover:shadow-xl hover:shadow-gold-500/25"
             >
-              Get a Free Consultation
+              Discuss Your Requirement
               <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" />
             </a>
             <a
@@ -90,8 +90,8 @@ const Hero = () => (
                 <CalendarClock className="h-5 w-5 text-gold-400" aria-hidden="true" />
               </span>
               <div>
-                <p className="font-display text-lg text-white">12–18 months</p>
-                <p className="text-xs text-slate-300">Typical registration timeline in India</p>
+                <p className="font-display text-lg text-white">Case by case</p>
+                <p className="text-xs text-slate-300">Timelines depend on the application and Registry process</p>
               </div>
             </div>
             <div className="absolute -bottom-6 -left-3 flex items-center gap-3 rounded-2xl border border-white/10 bg-navy-700/90 p-4 shadow-xl backdrop-blur-md sm:-left-6">
@@ -99,8 +99,8 @@ const Hero = () => (
                 <ShieldCheck className="h-5 w-5 text-gold-400" aria-hidden="true" />
               </span>
               <div>
-                <p className="font-display text-lg text-white">Renew every 10 years</p>
-                <p className="text-xs text-slate-300">We track it, so you never lapse</p>
+                <p className="font-display text-lg text-white">10-year term</p>
+                <p className="text-xs text-slate-300">Registrations may be renewed for further periods</p>
               </div>
             </div>
           </div>

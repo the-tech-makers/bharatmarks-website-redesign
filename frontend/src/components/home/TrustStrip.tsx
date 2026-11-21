@@ -4,18 +4,18 @@ import Reveal from "@/components/base/Reveal";
 const items = [
   {
     icon: ShieldCheck,
-    title: "End-to-End Handling",
-    text: "Search, filing, objection and renewal — all under one roof",
+    title: "Support Across Stages",
+    text: "Search, filing, objections and renewals, depending on your requirement",
   },
   {
     icon: BadgeIndianRupee,
-    title: "Transparent Fees",
-    text: "Know your exact cost before we begin",
+    title: "Fee Clarity",
+    text: "Ask about applicable government charges and professional fees before proceeding",
   },
   {
     icon: UserCheck,
-    title: "Dedicated Experts",
-    text: "Qualified trademark professionals on your side",
+    title: "Practical Guidance",
+    text: "Help understanding documents, procedures and possible next steps",
   },
   {
     icon: Globe,
