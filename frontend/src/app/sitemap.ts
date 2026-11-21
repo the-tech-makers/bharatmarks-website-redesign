@@ -14,6 +14,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
+      url: `${SITE_URL}/privacy-policy/`,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${SITE_URL}/disclaimer/`,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
       url: `${SITE_URL}/contact/`,
       changeFrequency: "monthly",
       priority: 0.7,
