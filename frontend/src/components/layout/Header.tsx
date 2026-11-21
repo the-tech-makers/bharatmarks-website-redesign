@@ -37,11 +37,34 @@ const Header = () => {
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
 
   useEffect(() => {
+    if (!isHomePage) {
+      setScrolled(true);
+      return;
+    }
+
     const onScroll = () => setScrolled(window.scrollY > 24);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
+  }, [isHomePage]);
+
+  useEffect(() => {
+    const closeMenus = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setServicesOpen(false);
+        setMobileServicesOpen(false);
+        setMobileOpen(false);
+      }
+    };
+    window.addEventListener("keydown", closeMenus);
+    return () => window.removeEventListener("keydown", closeMenus);
   }, []);
+
+  useEffect(() => {
+    setServicesOpen(false);
+    setMobileServicesOpen(false);
+    setMobileOpen(false);
+  }, [pathname]);
 
   const solidHeader = scrolled || !isHomePage;
 
@@ -118,7 +141,7 @@ const Header = () => {
             data-testid="header-phone-link"
             className={`flex items-center gap-2 rounded text-sm font-medium text-slate-200 transition-colors hover:text-gold-400 ${focusRing}`}
           >
-            <Phone className="h-4 w-4 text-gold-400" />
+            <Phone className="h-4 w-4 text-gold-400" aria-hidden="true" />
             +91 98722 36665
           </a>
           <a
@@ -127,7 +150,7 @@ const Header = () => {
             className={`group inline-flex items-center gap-2 rounded-full bg-gold-500 px-6 py-2.5 text-sm font-semibold text-navy-800 transition-all duration-300 hover:bg-gold-400 hover:shadow-lg hover:shadow-gold-500/25 ${focusRing}`}
           >
             Enquire Now
-            <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" />
+            <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" aria-hidden="true" />
           </a>
         </div>
 
@@ -193,7 +216,7 @@ const Header = () => {
                 rel="noopener noreferrer"
                 className={`flex items-center justify-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-white/10 ${focusRing}`}
               >
-                <MessageCircle className="h-4 w-4 text-gold-400" />
+                <MessageCircle className="h-4 w-4 text-gold-400" aria-hidden="true" />
                 Chat on WhatsApp
               </a>
             </div>
