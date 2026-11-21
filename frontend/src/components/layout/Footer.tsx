@@ -1,24 +1,26 @@
 import Image from "next/image";
 import { Phone, MessageCircle, Mail, MapPin } from "lucide-react";
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "/bharat-marks";
+
 const serviceLinks = [
-  { label: "Trademark Search", href: "/bharat-marks/services/trademark-search/" },
-  { label: "Trademark Registration", href: "/bharat-marks/services/trademark-registration/" },
-  { label: "Objection & Response", href: "/bharat-marks/services/trademark-objection/" },
-  { label: "Trademark Hearing", href: "/bharat-marks/services/trademark-hearing/" },
-  { label: "Trademark Renewal", href: "/bharat-marks/services/trademark-renewal/" },
-  { label: "Trademark Assignment", href: "/bharat-marks/services/trademark-assignment/" },
-  { label: "Copyright Registration", href: "/bharat-marks/services/copyright-registration/" },
-  { label: "Patent Assistance", href: "/bharat-marks/services/patent-assistance/" },
+  { label: "Trademark Search", href: `${BASE_PATH}/services/trademark-search/" },
+  { label: "Trademark Registration", href: `${BASE_PATH}/services/trademark-registration/" },
+  { label: "Objection & Response", href: `${BASE_PATH}/services/trademark-objection/" },
+  { label: "Trademark Hearing", href: `${BASE_PATH}/services/trademark-hearing/" },
+  { label: "Trademark Renewal", href: `${BASE_PATH}/services/trademark-renewal/" },
+  { label: "Trademark Assignment", href: `${BASE_PATH}/services/trademark-assignment/" },
+  { label: "Copyright Registration", href: `${BASE_PATH}/services/copyright-registration/" },
+  { label: "Patent Assistance", href: `${BASE_PATH}/services/patent-assistance/" },
 ];
 
 const companyLinks = [
-  { label: "Why Us", href: "/bharat-marks/#why-us" },
-  { label: "Process", href: "/bharat-marks/#process" },
-  { label: "Who We Serve", href: "/bharat-marks/#audience" },
-  { label: "Success Stories", href: "/bharat-marks/#testimonials" },
-  { label: "FAQ", href: "/bharat-marks/#faq" },
-  { label: "Contact", href: "/bharat-marks/#contact" },
+  { label: "Why Us", href: `${BASE_PATH}/#why-us" },
+  { label: "Process", href: `${BASE_PATH}/#process" },
+  { label: "Who We Serve", href: `${BASE_PATH}/#audience" },
+  { label: "Success Stories", href: `${BASE_PATH}/#testimonials" },
+  { label: "FAQ", href: `${BASE_PATH}/#faq" },
+  { label: "Contact", href: `${BASE_PATH}/#contact" },
 ];
 
 const Footer = () => (
@@ -27,7 +29,7 @@ const Footer = () => (
       <div className="grid gap-12 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <span className="inline-flex items-center self-start rounded-xl bg-white px-3 py-1.5">
-            <Image src="/bharat-marks/logo.png" alt="Bharat Marks" width={180} height={38} className="h-9 w-auto" />
+            <Image src={`${BASE_PATH}/logo.png`} alt="Bharat Marks" width={180} height={38} className="h-9 w-auto" />
           </span>
           <p className="mt-5 max-w-sm text-sm leading-relaxed">
             Bharat Marks is your one-stop destination for trademark and intellectual-property
