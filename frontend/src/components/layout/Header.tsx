@@ -171,7 +171,7 @@ const Header = () => {
             ))}
             <div className="space-y-3 pt-4">
               <a
-                href="/bharat-marks/#contact"
+                href={`${BASE_PATH}/#contact`}
                 onClick={() => setMobileOpen(false)}
                 className="block rounded-full bg-gold-500 px-6 py-3 text-center text-sm font-semibold text-navy-800 transition-colors hover:bg-gold-400"
               >
