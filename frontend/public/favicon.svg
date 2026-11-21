@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 230">
   <title>Bharat Marks</title>
-  <image href="https://bharatmarks.com/wp-content/uploads/2024/04/Bharatmarsk_logoforweb_bluewithGANDO.png" x="-22" y="0" width="1200" height="256" preserveAspectRatio="none"/>
+  <path fill="#F47721" d="M24 53 51 69 78 53 92 80 50 101 9 80Z"/>
+  <path fill="#1E7541" d="m153 53 27 16 27-16 14 27-42 21-41-21Z"/>
+  <path fill="#858CC6" d="M101 24h30v88l18-12 18 11v42l-20 12v41l49-28v-54l-47-25-18 12V24Z"/>
 </svg>
