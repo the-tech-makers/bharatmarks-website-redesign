@@ -1,5 +1,6 @@
 import { Phone, MessageCircle, Mail, MapPin, ArrowRight } from "lucide-react";
 import Reveal from "@/components/base/Reveal";
+import EnquiryForm from "@/components/home/EnquiryForm";
 
 const contactMethods = [
   {
@@ -35,7 +36,7 @@ const FinalCTA = () => (
           "radial-gradient(800px 450px at 90% 10%, rgba(212,175,55,0.13), transparent 60%), radial-gradient(700px 450px at 5% 95%, rgba(28,37,65,0.95), transparent 70%)",
       }}
     />
-    <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-4 sm:px-6 lg:grid-cols-2 lg:gap-12 lg:px-8">
+    <div className="relative mx-auto grid max-w-7xl items-start gap-14 px-4 sm:px-6 lg:grid-cols-2 lg:gap-12 lg:px-8">
       <div>
         <Reveal>
           <p className="flex items-center gap-3 text-xs font-semibold uppercase tracking-widest2 text-gold-400">
@@ -68,7 +69,9 @@ const FinalCTA = () => (
         </Reveal>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="space-y-8">
+        <EnquiryForm />
+        <div className="grid gap-4 sm:grid-cols-2">
         {contactMethods.map(({ icon: Icon, label, value, href, testid }, i) => (
           <Reveal key={label} delay={i * 0.07} className={i === 0 ? "sm:row-span-1" : ""}>
             <a
@@ -97,6 +100,7 @@ const FinalCTA = () => (
             </p>
           </div>
         </Reveal>
+        </div>
       </div>
     </div>
   </section>
