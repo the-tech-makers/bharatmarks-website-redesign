@@ -18,7 +18,7 @@ const companyLinks = [
   { label: "Why Us", href: `${BASE_PATH}/#why-us` },
   { label: "Process", href: `${BASE_PATH}/#process` },
   { label: "Who We Serve", href: `${BASE_PATH}/#audience` },
-  { label: "Success Stories", href: `${BASE_PATH}/#testimonials` },
+  { label: "How We Support", href: `${BASE_PATH}/#support` },
   { label: "FAQ", href: `${BASE_PATH}/#faq` },
   { label: "Contact", href: `${BASE_PATH}/contact/` },
 ];
