@@ -5,6 +5,7 @@ import { ArrowLeft, ArrowRight, Check, ChevronRight, FileText, MessageCircle, Sh
 import Reveal from "@/components/base/Reveal";
 import SectionHeading from "@/components/base/SectionHeading";
 import { getService, services } from "@/data/services";
+import { serviceGuidance } from "@/data/service-guidance";
 
 const SITE_URL = "https://bharatmarks.com";
 
@@ -31,6 +32,7 @@ export default async function ServicePage({ params }: Props) {
   if (!service) notFound();
 
   const canonicalUrl = `${SITE_URL}/services/${service.slug}/`;
+  const guidance = serviceGuidance[service.slug];
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -139,6 +141,33 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {guidance && (
+        <section className="bg-white py-16 sm:py-20">
+          <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16 lg:px-8">
+            <Reveal>
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gold-700">A practical example</p>
+              <h2 className="mt-4 font-serif text-3xl font-semibold leading-tight text-navy-900 sm:text-4xl">When this service may be useful</h2>
+              <p className="mt-6 text-base leading-8 text-slate-600">{guidance.scenario}</p>
+              <p className="mt-5 text-sm leading-7 text-slate-500">{guidance.note}</p>
+            </Reveal>
+            <Reveal delay={0.1}>
+              <div className="rounded-2xl border border-slate-200 bg-ivory p-7 sm:p-9">
+                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gold-700">Possible work outputs</p>
+                <h3 className="mt-3 font-serif text-2xl font-semibold text-navy-900">What you can expect to prepare</h3>
+                <ul className="mt-7 space-y-4">
+                  {guidance.deliverables.map((item) => (
+                    <li key={item} className="flex gap-3 text-sm leading-6 text-slate-600">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-gold-700" aria-hidden="true" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+          </div>
+        </section>
+      )}
 
       <section className="py-16 sm:py-20 lg:py-24">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
