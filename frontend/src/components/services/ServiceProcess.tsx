@@ -25,9 +25,9 @@ const stepIcons = [ClipboardList, SearchCheck, FilePenLine, ShieldCheck];
 
 export default function ServiceProcess({ serviceTitle, serviceSlug, steps }: Props) {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-white via-white to-ivory/70 py-16 sm:py-20 lg:py-24">
-      <div className="pointer-events-none absolute -left-40 top-0 h-80 w-80 rounded-full bg-gold-500/5 blur-3xl" aria-hidden="true" />
-      <div className="pointer-events-none absolute -right-40 bottom-0 h-96 w-96 rounded-full bg-navy-900/5 blur-3xl" aria-hidden="true" />
+    <section className="relative overflow-hidden border-y border-gold-900/5 bg-gradient-to-br from-ivory via-[#F5F0E5] to-[#F8F6F0] py-16 sm:py-20 lg:py-24">
+      <div className="pointer-events-none absolute -left-40 top-0 h-96 w-96 rounded-full bg-gold-500/10 blur-3xl" aria-hidden="true" />
+      <div className="pointer-events-none absolute -right-40 bottom-0 h-96 w-96 rounded-full bg-navy-900/[0.06] blur-3xl" aria-hidden="true" />
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <Reveal>
           <div className="mx-auto max-w-3xl text-center">
@@ -73,7 +73,7 @@ export default function ServiceProcess({ serviceTitle, serviceSlug, steps }: Pro
         </ol>
 
         <Reveal delay={0.16}>
-          <div className="mt-9 flex flex-col gap-4 rounded-2xl border border-indigo-100 bg-indigo-50/70 p-5 sm:flex-row sm:items-center sm:p-6">
+          <div className="mt-14 flex flex-col gap-4 rounded-2xl border border-gold-500/25 bg-white/85 p-5 shadow-[0_10px_30px_rgba(15,35,70,0.05)] sm:mt-16 sm:flex-row sm:items-center sm:p-6">
             <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-navy-900 text-white">
               <Info className="h-5 w-5" aria-hidden="true" />
             </span>
