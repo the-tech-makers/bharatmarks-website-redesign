@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Check, ChevronRight, FileText, MessageCircle, ShieldCheck } from "lucide-react";
 import Reveal from "@/components/base/Reveal";
 import SectionHeading from "@/components/base/SectionHeading";
+import ServiceProcess from "@/components/services/ServiceProcess";
 import { getService, services } from "@/data/services";
 import { serviceGuidance } from "@/data/service-guidance";
 
@@ -169,24 +170,7 @@ export default async function ServicePage({ params }: Props) {
         </section>
       )}
 
-      <section className="py-16 sm:py-20 lg:py-24">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <Reveal><SectionHeading eyebrow="A clear path forward" title="How the process works" description="A straightforward sequence helps you understand what is needed at each stage." /></Reveal>
-          <div className="mt-12 space-y-0">
-            {service.steps.map((step, index) => (
-              <Reveal key={step.title} delay={index * 0.07}>
-                <div className="relative grid gap-4 border-l border-gold-500/40 pb-9 pl-8 last:border-transparent last:pb-0 sm:grid-cols-[3rem_1fr] sm:gap-7">
-                  <span className="absolute -left-[17px] top-0 flex h-8 w-8 items-center justify-center rounded-full border border-gold-500 bg-white font-serif text-sm font-semibold text-navy-900">{index + 1}</span>
-                  <div className="sm:col-start-2">
-                    <h3 className="font-serif text-xl font-semibold text-navy-900">{step.title}</h3>
-                    <p className="mt-2 max-w-2xl text-sm leading-7 text-slate-600">{step.description}</p>
-                  </div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
+      <ServiceProcess serviceTitle={service.title} steps={service.steps} serviceSlug={service.slug} />
 
       <section className="bg-navy-900 py-16 text-white sm:py-20">
         <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20 lg:px-8">
